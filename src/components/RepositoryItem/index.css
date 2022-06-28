@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.web-item {
+  margin: 10px;
+  list-style-type: none;
+  background-color: #f8f8ff;
+  padding: 20px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+}
+.web-image {
+  width: 120px;
+  height: 100px;
+}
+.name {
+  color: #e73959;
+  font-size: 32px;
+}
+.icon-container {
+  display: flex;
+
+  align-items: center;
+  width: 100%;
+}
+.fork-icon {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+.issue-icon {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.stars-count {
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 18px;
+}
+.star-icon {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
